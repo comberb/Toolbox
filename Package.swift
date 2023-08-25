@@ -11,9 +11,6 @@ let package = Package(
         .library(
             name: "Toolbox",
             targets: ["Toolbox"]),
-        .library(
-            name: "SwiftUIHelpers",
-            targets: ["SwiftUIHelpers"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -28,8 +25,5 @@ let package = Package(
         .testTarget(
             name: "ToolboxTests",
             dependencies: ["Toolbox"]),
-        .target(
-            name: "SwiftUIHelpers",
-            dependencies: ["Toolbox"])
     ]
 )
