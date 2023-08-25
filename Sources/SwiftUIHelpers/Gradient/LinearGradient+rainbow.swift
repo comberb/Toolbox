@@ -6,8 +6,9 @@
 //
 
 import SwiftUI
+import Toolbox
 
-extension LinearGradient {
+public extension LinearGradient {
     static var rainbow: LinearGradient {
         LinearGradient(
             gradient: Gradient(
